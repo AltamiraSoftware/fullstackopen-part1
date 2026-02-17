@@ -14,7 +14,7 @@ if (isTotal===0){
 
   return (
     <>
-    <h1>Staticstics</h1>
+    <h1>Statistics</h1>
     <table>
       <tbody>
     
@@ -43,7 +43,7 @@ const App = () => {
       <h1>Give us feedback</h1>
 
       <Button text='Good' onClick={()=>{setGood(good + 1)}}/>
-      <Button text='neutraL' onClick={()=>{setNeutral(neutral+ 1)}}/>
+      <Button text='neutraL' onClick={()=>{setNeutral(neutral + 1)}}/>
       <Button  text='BAD' onClick={() => {setBad(bad + 1)}}/> 
 
 
